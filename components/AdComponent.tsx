@@ -19,7 +19,7 @@ const AdComponent: React.FC<AdComponentProps> = ({
   responsive = true,
 }) => {
 
-  const AdClient = "ca-pub-XXXXXXXXXXXXXXXX"; // TODO: Replace with your own Publisher ID
+  const AdClient = "ca-pub-3540900632101010";
 
   useEffect(() => {
     // This effect will run after the component mounts.
