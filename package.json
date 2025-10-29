@@ -1,0 +1,11 @@
+{
+  "name": "algorust",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "esbuild index.tsx --bundle --outfile=dist/index.js --loader:.tsx=tsx --external:react --external:react-dom --external:react-dom/* && cp index.html dist/"
+  },
+  "devDependencies": {
+    "esbuild": "^0.21.4"
+  }
+}
